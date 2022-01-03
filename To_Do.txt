@@ -1,0 +1,4 @@
+
+1.Disconnection
+2.Player can play more games at the same time
+3.Account, database, ranking

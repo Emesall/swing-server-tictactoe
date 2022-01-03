@@ -1,0 +1,17 @@
+Client->Server:
+Send string:
+1."NewGame" -> waiting for response from server "ok" or "nok" and gameID
+2."Connect" ->  1."ConnectOk",gameID,playerName 2."ConnectNok"
+3."Play",gameID, "0,1"  -place on the board
+5."JoinGame",gameID
+6."Name" -->response "NameOk" or "NameNok"(if taken)
+7."GameQuit"->creator left "create_game" panel.
+
+Server->Client:
+Send string:
+
+2."Play",gameID,typ, "0,1"  -place on the board
+3."Winner", message, winnername type
+4."Message", message (your turn, wait)
+5."UpdateGames" ->games database changed, update view
+
