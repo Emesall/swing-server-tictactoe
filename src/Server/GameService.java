@@ -48,7 +48,7 @@ public class GameService {
 
 	}
 
-	// prepare server connection, accept clients
+	// prepare server connection, accept clients connection
 	public void createServer() {
 		players = new ArrayList<>();
 		try {
