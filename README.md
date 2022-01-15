@@ -1,4 +1,4 @@
-Simple TicTacToe game beetwen two users connected to the server, written in Java. 
+<b>Simple TicTacToe game beetwen two users connected to the server, written in Java.</b>
 
 In the project were used Socket, Thread, Swing functionalities.
 
@@ -17,4 +17,4 @@ You can find specification in Communication.txt.
 
 Application created in order to learn more about programming in Java.
 
-App was ONLY tested in a localhost so there will be probably some client<->server issues once it's deployed.
+App was ONLY tested in a localhost so there might be some client<->server issues once it's deployed.
